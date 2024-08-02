@@ -12,4 +12,18 @@ def greetings_get():  # noqa: E501
 
     :rtype: None
     """
-    return 'do some magic!'
+    hellos = {
+        "English": "hello",
+        "Hindi": "namastey",
+        "Spanish": "hola",
+        "French": "bonjour",
+        "German": "guten tag",
+        "Italian": "salve",
+        "Chinese": "nǐn hǎo",
+        "Portuguese": "olá",
+        "Arabic": "asalaam alaikum",
+        "Japanese": "konnichiwa",
+        "Korean": "anyoung haseyo",
+        "Russian": "Zdravstvuyte"
+    }
+    return hellos
